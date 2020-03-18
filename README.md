@@ -24,6 +24,7 @@ AWS credentials can be provided via the following:
 
 * Environment Variables - AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 * Credentials delivered through the Amazon EC2 container service if AWS_CONTAINER_CREDENTIALS_RELATIVE_URI" environment variable is set and security manager has permission to access the variable,
+* Environment Variables - AWS_WEB_IDENTITY_TOKEN_FILE and AWS_ROLE_ARN using STS.
 * Instance profile credentials delivered through the Amazon EC2 metadata service if running within AWS
 * IAM role applied to either an Amazon Elastic Container Service (ECS) service or task
 
